@@ -1,45 +1,46 @@
 # 🐍 Snake Game
 
-Basit bir **Snake (Yılan) Oyunu** Python ile geliştirilmiştir.  
-Bu oyun Python kullanılarak yazılmış klasik Snake oyunudur.
+A simple **Snake Game** developed using Python.  
+This project is a classic implementation of the Snake game written in Python.
 
 ---
 
-## 📌 Proje Hakkında
+## 📌 About the Project
 
-Bu proje, Python ile yazılmış klasik Snake oyununun bir uygulamasıdır.  
-Oyunda yılan, yiyeceği yiyerek büyür; kendi gövdesine veya duvara çarptığında oyun biter. ([github.com](https://github.com/gokgu/snake_game.git))
-
----
-
-## 🗂️ Proje Dosyaları
-
-| Dosya | Açıklama |
-|-------|----------|
-| `main.py`       | Oyunu başlatan ana dosya |
-| `snake.py`      | Yılanın tanımlandığı ve hareket ettiği dosya |
-| `food.py`       | Rastgele yiyecek oluşturma ve yeme mantığı |
-| `scoreboard.py` | Skor takibi ve ekran çıktısı |
-| `LICENSE`       | MIT lisansı |
-| `README.md`     | Bu dosya |
+This project is an implementation of the classic Snake game built with Python.  
+In the game, the snake grows by eating food; the game ends when the snake hits the wall or its own body.  
+Repository: https://github.com/gokgu/snake_game.git
 
 ---
 
-## 🚀 Özellikler
+## 🗂️ Project Files
 
-- 🎮 Klavye ile yılan kontrolü
-- 🍎 Rastgele yiyecek oluşturma
-- 📈 Skor görüntüleme
-- 💥 Kendi gövdesine veya duvara çarpınca oyun bitme
+| File | Description |
+|-----|-------------|
+| `main.py`       | Main file that starts the game |
+| `snake.py`      | Defines the snake and its movement |
+| `food.py`       | Handles random food generation and eating logic |
+| `scoreboard.py` | Score tracking and display |
+| `LICENSE`       | MIT license |
+| `README.md`     | This file |
 
 ---
 
-## 🧠 Gereksinimler
+## 🚀 Features
 
-Bu oyun **Python 3.x** ile çalışır.  
-Ek bir paket gerektirmeyebilir (turtle veya benzeri olabilir).
+- 🎮 Keyboard-controlled snake movement
+- 🍎 Random food generation
+- 📈 Score display
+- 💥 Game over when hitting walls or the snake’s own body
 
-Python sürümünü kontrol etmek için:
+---
+
+## 🧠 Requirements
+
+This game runs on **Python 3.x**.  
+No additional packages are required (may use `turtle` or similar standard libraries).
+
+To check your Python version:
 
 ```
 python --version
@@ -47,16 +48,16 @@ python --version
 
 ---
 
-## ▶️ Nasıl Çalıştırılır
+## ▶️ How to Run
 
-Depoyu klonlayın:
+Clone the repository:
 
 ```bash
 git clone https://github.com/gokgu/snake_game.git
 cd snake_game
 ```
 
-Oyunu çalıştırın:
+Run the game:
 
 ```bash
 python main.py
@@ -64,40 +65,41 @@ python main.py
 
 ---
 
-## 🎮 Kontroller
+## 🎮 Controls
 
-- ↑ / W — Yukarı
-- ↓ / S — Aşağı
-- ← / A — Sol
-- → / D — Sağ
+- ↑ / W — Move Up
+- ↓ / S — Move Down
+- ← / A — Move Left
+- → / D — Move Right
 
-*(Klavye ile yön kontrolü)*
-
----
-
-## 📈 Nasıl Oynanır
-
-- Yılanı yön tuşları ile kontrol et.  
-- Yiyeceğe ulaşmaya çalış.  
-- Yiyeceğe her ulaştığında skorun artar ve yılan büyür.  
-- Duvara veya kendi gövdesine çarparsan oyun biter.
+*(Keyboard-based movement control)*
 
 ---
 
-## 📄 Lisans
+## 📈 How to Play
 
-Bu proje **MIT Lisansı** ile lisanslanmıştır. Kaynak kodları özgürce kullanabilir, değiştirebilir ve paylaşabilirsin. ([github.com](https://github.com/gokgu/snake_game.git))
-
----
-
-## 🤝 Katkıda Bulunma
-
-Projeye katkıda bulunmak istersen:
-
-1. Fork’la
-2. Kodları düzenle
-3. Pull Request gönder
+- Control the snake using the arrow keys.  
+- Try to reach the food.  
+- Each time the snake eats food, the score increases and the snake grows.  
+- The game ends if the snake hits the wall or its own body.
 
 ---
 
-🔥 **İyi eğlenceler!** 🐍
+## 📄 License
+
+This project is licensed under the **MIT License**.  
+You are free to use, modify, and distribute the source code.  
+
+---
+
+## 🤝 Contributing
+
+If you would like to contribute to the project:
+
+1. Fork the repository  
+2. Make your changes  
+3. Submit a Pull Request  
+
+---
+
+🔥 **Have fun playing!** 🐍
